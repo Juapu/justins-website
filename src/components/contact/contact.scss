@@ -1,0 +1,47 @@
+@import "../../app.scss";
+.contact{
+    height: 100%;
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+
+    .textContainer{
+        height: 40%;
+        h1 {
+            font-size: 80px;
+            color: white;
+            flex-direction: column;
+
+        }
+
+    }
+    .formContainer{
+        width: 40%;
+        form {
+            display:flex;
+            flex-direction: column;
+            gap: 20px;
+            input, text{
+                padding: 20px;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                border-radius: 5px;
+
+            }
+            button {
+                padding: 20px;
+                border: none;
+                background-color: orange;
+                cursor: pointer;
+                font-weight: 500;
+                border-radius: 10px;
+
+            }
+        }
+    }
+}

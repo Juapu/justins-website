@@ -1,0 +1,39 @@
+.services{
+    height: 100%;
+    background: linear-gradient(180deg, #0c0c1d, #111132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .textContainer{
+
+        width: 40%;
+        h2 {
+            font-size: 45px;
+            color: white;
+
+        }
+        p{
+            color: gray;
+        }
+    }
+
+    .listContainer{
+        display: flex;
+        flex-direction: row;
+        max-width: 1366px;
+        margin: 30px auto;
+        .box {
+            padding: 25px;
+            border: 0.5px solid gray;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+
+        }
+
+    }
+}
